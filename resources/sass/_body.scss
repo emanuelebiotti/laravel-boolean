@@ -1,0 +1,60 @@
+.presentazione {
+
+  padding-top:50px;
+  color:#1b3c59;
+  margin-bottom: 40px;
+
+  img {
+    width:90%;
+  }
+
+  h2 {
+    max-width: 90%;
+    color:#61CE4E;
+    font-size: 40px;
+  }
+
+  h5 {
+    max-width: 80%;
+    line-height: 25px;
+  }
+
+  a {
+    width:160px;
+    margin-top:25px;
+    padding:10px;
+    font-weight:300;
+    border-radius: 2px;
+  }
+
+}
+
+.hired {
+  height:150px;
+  background-color: $typical_blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h4 {
+    color:white;
+    margin-bottom: 20px;
+  }
+  img {
+    width:90px;
+    height:25px;
+    margin:0px 30px;
+  }
+  img:nth-child(2) {
+    width: 15%;
+    height:25px;
+  }
+  img:nth-child(3) {
+    width: 70px;
+  }
+  .logos {
+    display:flex;
+    justify-content: center;
+  }
+}

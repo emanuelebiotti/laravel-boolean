@@ -17,10 +17,10 @@
 
 <div class="container">
 
-    <div class="row">
+    <div class="row presentazione">
       <div class="col-md-6">
         <h2>Diventa sviluppatore web</h2>
-        <h4>6 mesi di corso intensivo online in diretta per imparare da zero il mestiere di web developer e trovare un nuovo lavoro nelle aziende top del settore</h4>
+        <h5>6 mesi di corso intensivo online in diretta per imparare da zero il mestiere di web developer e trovare un nuovo lavoro nelle aziende top del settore</h5>
         <a href="#" class="btn btn-success">SCOPRI IL CORSO</a>
       </div>
       <div class="col-md-6">
@@ -28,9 +28,26 @@
       </div>
     </div>
 
+</div>
 
+<div class="hired">
+  <div class="row">
+    <h4 class="text-center">I nostri studenti sono stati assunti  da:</h4>
+  </div>
+  <div class="row">
+    <div class="logos container">
+      <img src="https://www.boolean.careers/images/partners/facile_it.png" alt="">
+      <img src="https://www.boolean.careers/images/partners/oneday.png" alt="">
+      <img src="https://www.boolean.careers/images/partners/cayenne.png" alt="">
+      <img src="https://www.boolean.careers/images/partners/softec.png" alt="">
+      <img src="https://www.boolean.careers/images/partners/fabbrica_digitale.png" alt="">
+    </div>
+  </div>
+</div>
 
 </div>
 
 
 @endsection
+
+@section('footer')
