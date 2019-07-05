@@ -1,0 +1,22 @@
+header {
+  height:$header_height;
+
+  nav {
+    float:right;
+    padding:0 10px;
+
+    a {
+      display:inline-block;
+      line-height: $header_height;
+      padding-right:30px;
+      font-size: 90%;
+
+    }
+
+  }
+  img {
+    height:$header_height;
+    padding:10px;
+  }
+
+}
