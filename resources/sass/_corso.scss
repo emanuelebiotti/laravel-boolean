@@ -1,0 +1,41 @@
+.developer {
+  width:100vw;
+  height:180px;
+  background-color:$typical_blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1, h6 {
+    color:white;
+    margin:10px;
+  }
+}
+
+.white-background {
+  background-color: white;
+  h1 {
+    color:$typical_blue;
+  }
+}
+.how {
+  width:90vw;
+  height:180px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1, h6 {
+    margin:10px;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
+.jobs {
+  h3, h4 {
+    margin:10px 0;
+  }
+}
