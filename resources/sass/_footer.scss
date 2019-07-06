@@ -44,7 +44,9 @@ footer {
   .footer_info {
     height:50px;
     background-color: $typical_blue;
-    
+    display: flex;
+    align-items: center;
+
     small {
       margin:0px 40px;
       color:white;

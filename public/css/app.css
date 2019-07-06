@@ -11288,6 +11288,10 @@ footer .contatti .contatti_info:nth-child(4) .fab {
 footer .footer_info {
   height: 50px;
   background-color: #1B3C59;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 footer .footer_info small {
