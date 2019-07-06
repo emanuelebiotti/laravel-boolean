@@ -1,5 +1,7 @@
 header {
   height:$header_height;
+  background: #FFFFFF;
+  z-index: 1;
 
   nav {
     float:right;
@@ -11,7 +13,6 @@ header {
       padding-right:30px;
       font-size: 90%;
       color:#1b3c59;
-
     }
 
   }
