@@ -12,7 +12,7 @@
             <div class="contatti_info">
               <a href="#"><small>Domande frequenti</small></a>
               <a href="#"><small>Lezione gratuita</small></a>
-              <a href="{{ url('privacy-policy') }}"><small>Privacy policy</small></a>
+              <a href="{{ route('privacy') }}"><small>Privacy policy</small></a>
               <a href="#"><small>Lavora con noi!</small></a>
             </div>
           <div class="contatti_info">

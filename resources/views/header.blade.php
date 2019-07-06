@@ -1,5 +1,5 @@
 <header class="fixed-top">
-<a href=""><img src="https://www.boolean.careers/images/common/logo.png" alt="Boolean Logo"></a>
+<a href="{{ route('homepage') }}"><img src="https://www.boolean.careers/images/common/logo.png" alt="Boolean Logo"></a>
 <nav>
   <a href="#">HOME</a>
   <a href="#">CORSO</a>

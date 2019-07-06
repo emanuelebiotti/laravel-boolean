@@ -18,6 +18,6 @@ Route::get('/', function () {
 Route::get('prima-rotta', 'StaticController@prima');
 Route::get('seconda-rotta', 'StaticController@seconda');
 
-Route::get('homepage', 'StaticController@homepage');
+Route::get('homepage', 'StaticController@homepage')->name('homepage');
 Route::get('welcome', 'Controller@welcome');
-Route::get('privacy-policy', 'StaticController@privacyPolicy');
+Route::get('privacy-policy', 'StaticController@privacyPolicy')->name('privacy');
