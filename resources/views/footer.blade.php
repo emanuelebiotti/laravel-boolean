@@ -5,9 +5,9 @@
             <img src="https://www.boolean.careers/images/common/logo.png" alt="">
           </div>
           <div class="contatti_info">
-            <a href="#"><small>ciao@boolean.careers</small></a>
-            <a href="#"><small>02-40031288</small></a>
-            <a href="#"><small>+39 327-9578239</small></a>
+            <a href="mailto:ciao@boolean.careers"><small>ciao@boolean.careers</small></a>
+            <a href="tel:02-40031288"><small>02-40031288</small></a>
+            <a href="tel:+39 327-9578239"><small>+39 327-9578239</small></a>
           </div>
             <div class="contatti_info">
               <a href="#"><small>Domande frequenti</small></a>
