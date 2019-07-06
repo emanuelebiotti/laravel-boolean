@@ -40,13 +40,14 @@ footer {
     }
   }
 
-  small {
-    margin:0px 40px;
-  }
 
   .footer_info {
     height:50px;
     background-color: $typical_blue;
-    color:white;
+    
+    small {
+      margin:0px 40px;
+      color:white;
+    }
   }
 }

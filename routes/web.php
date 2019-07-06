@@ -20,4 +20,4 @@ Route::get('seconda-rotta', 'StaticController@seconda');
 
 Route::get('homepage', 'StaticController@homepage');
 Route::get('welcome', 'Controller@welcome');
-Route::get('privacy-policy', 'StaticController@privacypolicy');
+Route::get('privacy-policy', 'StaticController@privacyPolicy');

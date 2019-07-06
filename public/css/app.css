@@ -11207,6 +11207,24 @@ body {
 }
 
 * {
+  color: #1B3C59;
+}
+
+.policy {
+  margin-top: 50px;
+}
+
+h1,
+h4,
+p {
+  margin-bottom: 40px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+* {
   margin: 0;
   box-sizing: border-box;
 }
@@ -11267,13 +11285,13 @@ footer .contatti .contatti_info:nth-child(4) .fab {
   margin: 5px;
 }
 
-footer small {
-  margin: 0px 40px;
-}
-
 footer .footer_info {
   height: 50px;
   background-color: #1B3C59;
+}
+
+footer .footer_info small {
+  margin: 0px 40px;
   color: white;
 }
 
