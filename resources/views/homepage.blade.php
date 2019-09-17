@@ -1,9 +1,7 @@
-@extends('layout')
-
+@extends('layouts.app')
 @section('content')
 
 <div class="container">
-
     <div class="row presentazione">
       <div class="col-md-6">
         <h2>Diventa sviluppatore web</h2>
@@ -14,7 +12,6 @@
         <img src="https://www.boolean.careers/images/common/mac2x.png" alt="">
       </div>
     </div>
-
 </div>
 
 <div class="hired">
@@ -31,11 +28,7 @@
     </div>
   </div>
 </div>
+<div class="course-content">
 
 </div>
-
-@endsection
-
-
-@section('footer')
 @endsection

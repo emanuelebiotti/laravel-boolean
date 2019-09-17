@@ -1,4 +1,5 @@
-@extends('layout')
+@extends('layouts.app')
+@section('pageTitle', 'FAQ')
 @section('content')
 <div class="how white-background">
     <h1 class=>Come si diventa sviluppatore</h1>

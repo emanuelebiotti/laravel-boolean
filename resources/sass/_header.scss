@@ -1,24 +1,31 @@
-header {
-  height:$header_height;
-  background: #FFFFFF;
-  z-index: 1;
+nav {
+  height:80px;
+  font-family: 'Rubik', sans-serif;
 
-  nav {
-    float:right;
-    padding:0 10px;
-
-    a {
-      display:inline-block;
-      line-height: $header_height;
-      padding-right:30px;
-      font-size: 90%;
-      color:#1b3c59;
+  .logo {
+    height:100%;
+      a img {
+        height:100%;
+      }
+  }
+  ul li a {
+    color:$typical_blue !important;
+    margin-left: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight:300;
+    font-size: 105%;
+  }
+  .iscriviti {
+    width:100px;
+    background-color: #f47637;
+    color:#FFF !important;
+    border-radius: 2px;
+    text-align: center;
+    &:hover {
+      opacity: 0.8;
     }
-
   }
-  img {
-    height:$header_height;
-    padding:10px;
-  }
-
+}
+.voci-nav {
+  padding-left: 23%;
 }
