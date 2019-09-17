@@ -8,7 +8,7 @@
       <div class="col-md-6">
         <h2>Diventa sviluppatore web</h2>
         <h5>6 mesi di corso intensivo online in diretta per imparare da zero il mestiere di web developer e trovare un nuovo lavoro nelle aziende top del settore</h5>
-        <a href="#" class="btn btn-success">SCOPRI IL CORSO</a>
+        <a href="#" class="btn btn-primary discover">SCOPRI IL CORSO</a>
       </div>
       <div class="col-md-6">
         <img src="https://www.boolean.careers/images/common/mac2x.png" alt="">

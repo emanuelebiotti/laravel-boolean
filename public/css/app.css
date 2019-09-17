@@ -11106,6 +11106,21 @@ a.text-dark:focus {
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.discover {
+  background-color: #F5874F;
+  border: 0;
+  font-family: sans-serif;
+}
+
+.discover:hover {
+  background-color: #F5874F;
+  opacity: 0.9;
+}
+
 header {
   height: 70px;
   background: #FFFFFF;
@@ -11353,5 +11368,70 @@ footer .footer_info {
 footer .footer_info small {
   margin: 0px 40px;
   color: white;
+}
+
+.how {
+  height: 250px;
+}
+
+.how h1 {
+  margin-left: 0;
+}
+
+.faq {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: flex;
+}
+
+.faq .faq-prima,
+.faq .faq-dopo {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 4%;
+}
+
+.faq p {
+  font-size: 120%;
+}
+
+.faq h2 {
+  cursor: pointer;
+}
+
+.faq .faq-prima {
+  background-color: #E7EBF0;
+  height: auto;
+}
+
+.faq .faq-prima h2 {
+  font-size: 1.6rem;
+}
+
+.faq .faq-dopo {
+  background-color: #1B3C59;
+  height: auto;
+}
+
+.faq .faq-dopo h1 {
+  color: #FFF;
+}
+
+.faq .faq-dopo h2 {
+  font-size: 1.6rem;
+}
+
+.faq .faq-dopo h2,
+.faq .faq-dopo p {
+  color: #FFF;
+}
+
+.faq p {
+  display: none;
 }
 

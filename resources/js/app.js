@@ -30,3 +30,18 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
+
+var $ = require('jquery');
+
+$(document).ready(function(){
+
+  $('.faq h2').click(function(){
+    if($(this).siblings('p').css('display') == 'block') {
+      $(this).siblings('p').hide(350);
+    } else {
+      $('p').hide();
+      $(this).siblings('p').show(350);
+    }
+  });
+
+});

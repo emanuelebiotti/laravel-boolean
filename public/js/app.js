@@ -49214,6 +49214,19 @@ var app = new Vue({
   el: '#app'
 });
 
+var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+
+$(document).ready(function () {
+  $('.faq h2').click(function () {
+    if ($(this).siblings('p').css('display') == 'block') {
+      $(this).siblings('p').hide(350);
+    } else {
+      $('p').hide();
+      $(this).siblings('p').show(350);
+    }
+  });
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

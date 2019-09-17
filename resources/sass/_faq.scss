@@ -1,0 +1,50 @@
+.how {
+  height:250px;
+  h1 {
+    margin-left: 0;
+  }
+}
+
+.faq {
+  width:100vw;
+  height:auto;
+  margin:0;
+  padding:0;
+  display: flex;
+  .faq-prima, .faq-dopo {
+    width:50%;
+    height:100%;
+    display:inline-block;
+    margin:0;
+    padding:4%;
+  }
+  p {
+    font-size: 120%;
+  }
+  h2 {
+    cursor: pointer;
+  }
+  .faq-prima {
+    background-color: #E7EBF0;
+    height:auto;
+    h2 {
+      font-size: 1.6rem;
+    }
+  }
+  .faq-dopo {
+    background-color: #1B3C59;
+    height:auto;
+    h1 {
+      color:#FFF;
+    }
+    h2 {
+      font-size: 1.6rem;
+    }
+    h2, p {
+      color:#FFF;
+    }
+  }
+  p {
+    display:none;
+  }
+}
