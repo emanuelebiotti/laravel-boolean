@@ -11113,7 +11113,6 @@ a.text-dark:focus {
 .discover {
   background-color: #F5874F;
   border: 0;
-  font-family: sans-serif;
 }
 
 .discover:hover {
@@ -11125,7 +11124,17 @@ a.text-dark:focus {
   width: 100vw;
 }
 
+.nav-container {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  margin-left: 0;
+  background-color: #FFFFFF;
+}
+
 nav {
+  width: 100%;
   height: 80px;
   font-family: "Rubik", sans-serif;
 }
@@ -11159,7 +11168,11 @@ nav .iscriviti:hover {
 }
 
 .voci-nav {
-  padding-left: 23%;
+  padding-left: 22%;
+}
+
+.nav-spacing {
+  height: 80px;
 }
 
 body {
@@ -11449,5 +11462,9 @@ footer .footer_info small {
 
 .faq p {
   display: none;
+}
+
+.faq-selected {
+  color: #f47637 !important;
 }
 

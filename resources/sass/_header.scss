@@ -1,4 +1,13 @@
+.nav-container {
+  width: 100vw;
+  position: fixed;
+  top:0;
+  z-index: 2;
+  margin-left: 0;
+  background-color: #FFFFFF;
+}
 nav {
+  width:100%;
   height:80px;
   font-family: 'Rubik', sans-serif;
 
@@ -27,5 +36,8 @@ nav {
   }
 }
 .voci-nav {
-  padding-left: 23%;
+  padding-left: 22%;
+}
+.nav-spacing {
+  height:80px;
 }

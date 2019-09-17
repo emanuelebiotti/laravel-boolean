@@ -1,5 +1,5 @@
-<div class="row">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light col-sm-12">
+<div class="row nav-container">
+  <nav class="navbar navbar-expand-lg navbar-light col-sm-12">
     <div class="logo">
       <a href="{{ route('homepage') }}"><img src="https://www.boolean.careers/images/common/logo.png" alt="Boolean Logo"></a>
     </div>
@@ -29,4 +29,7 @@
       </ul>
     </div>
   </nav>
+</div>
+<div class="nav-spacing">
+
 </div>

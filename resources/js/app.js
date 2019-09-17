@@ -36,6 +36,7 @@ var $ = require('jquery');
 $(document).ready(function(){
 
   $('.faq h2').click(function(){
+    $(this).toggleClass('faq-selected');
     if($(this).siblings('p').css('display') == 'block') {
       $(this).siblings('p').hide(350);
     } else {

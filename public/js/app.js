@@ -49218,6 +49218,8 @@ var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"
 
 $(document).ready(function () {
   $('.faq h2').click(function () {
+    $(this).toggleClass('faq-selected');
+
     if ($(this).siblings('p').css('display') == 'block') {
       $(this).siblings('p').hide(350);
     } else {
